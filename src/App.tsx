@@ -96,7 +96,7 @@ function App() {
   return (
     <StyledHome data-testid="container" $ismobile={isMobile}>
       <div className="home-container">
-        {bunnyState === "yes" ? <div className="title">Hasta la vista Baby  !!!!</div> : <div className="title">Will You Be My GF?</div>}
+        {bunnyState === "yes" ? <div className="title">Hasta la vista Baby  !!!!</div> : <div className="title">Will You Be My GF NINAWIK?</div>}
         <div className="animation">
           {bunnyState === "normal" && <Lottie options={bunnyPleaseOptions} height={animationSize} width={animationSize} />}
           {bunnyState === "cry" && <Lottie options={bunnyCryOptions} height={animationSize} width={animationSize} />}
