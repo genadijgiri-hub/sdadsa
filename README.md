@@ -53,6 +53,21 @@ npm run preview
 - Styled Components
 - React Lottie
 
+## Deployment to Vercel
+
+This project is configured to deploy on Vercel:
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and sign in
+3. Click "New Project" and import your repository
+4. Vercel will automatically detect Vite and use the `vercel.json` configuration
+5. Click "Deploy"
+
+The `vercel.json` file is already configured to:
+- Build command: `npm run build`
+- Output directory: `dist`
+- Framework: `vite`
+
 ## Project Structure
 
 ```
